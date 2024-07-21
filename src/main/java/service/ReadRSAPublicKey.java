@@ -16,7 +16,7 @@ public class ReadRSAPublicKey {
         String publicKeyPEM = new String(Files.readAllBytes(Paths.get(publicKeyPath)));
         PublicKey publicKey = null;
 
-        try{
+        try {
             String publicKeyPEMContent = publicKeyPEM
                     .replace("-----BEGIN RSA PRIVATE KEY-----", "")
                     .replace("-----END RSA PRIVATE KEY-----", "")

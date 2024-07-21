@@ -1,11 +1,8 @@
 package service;
 
 import javax.crypto.Cipher;
-import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
-import java.security.spec.InvalidKeySpecException;
 import java.util.Base64;
 
 public class JWEDecryption {
@@ -24,7 +21,6 @@ public class JWEDecryption {
 
         System.out.println(new String(decryptedBytes, StandardCharsets.UTF_8));
     }
-
 
 
 }
