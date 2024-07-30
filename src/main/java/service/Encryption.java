@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.PrivateKey;
 import java.util.Base64;
 
-public class JWEEncryption {
+public class Encryption {
 
     private static final String ENCRYPTION_ALGORITHM = "RSA/ECB/PKCS1Padding";
 
